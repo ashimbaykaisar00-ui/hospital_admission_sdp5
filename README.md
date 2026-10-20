@@ -41,5 +41,5 @@ This implementation strictly adheres to the **Strategy Pattern** for the followi
 
 ## Git Commit History (Refactoring Links)
 
-- **Before Refactoring (Monolithic implementation with `if-else`/`switch`):** `[INSERT_YOUR_COMMIT_HASH_BEFORE]`
-- **After Refactoring (Clean Strategy Pattern implementation):** `[INSERT_YOUR_COMMIT_HASH_AFTER]`
+- **Before Refactoring (Monolithic implementation with `if-else`/`switch`):** https://github.com/ashimbaykaisar00-ui/hospital_admission_sdp5/commit/0788c50
+- **After Refactoring (Clean Strategy Pattern implementation):** https://github.com/ashimbaykaisar00-ui/hospital_admission_sdp5/commit/4d0d068
