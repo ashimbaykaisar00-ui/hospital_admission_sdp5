@@ -37,9 +37,3 @@ This implementation strictly adheres to the **Strategy Pattern** for the followi
 2. **Strategy vs. Template Method Pattern:**
    The Template Method pattern relies on class inheritance, defining an algorithm skeleton in an abstract base class and deferring specific steps to subclasses. In contrast, our solution utilizes object composition. Each triage and bed allocation family relies on interface contracts (`TriageStrategy` and `BedAllocationStrategy`). This decoupled composition allows swapping entire algorithmic behaviors dynamically at runtime without subclassing or modifying context structures.
 
----
-
-## Git Commit History (Refactoring Links)
-
-- **Before Refactoring (Monolithic implementation with `if-else`/`switch`):** `[INSERT_YOUR_COMMIT_HASH_BEFORE]`
-- **After Refactoring (Clean Strategy Pattern implementation):** `[INSERT_YOUR_COMMIT_HASH_AFTER]`
